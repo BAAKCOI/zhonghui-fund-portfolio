@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#e9f2fa">
+  <meta name="description" content="众惠基金 App 体验升级，面向理财新手的基金理解与 AI 陪伴设计。">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="众惠基金 App 体验升级">
+  <meta property="og:description" content="面向理财新手的基金理解与 AI 陪伴设计。">
+  <meta property="og:image" content="https://baakcoi.github.io/zhonghui-fund-portfolio/media/hero-mobile.webp">
+  <link rel="canonical" href="https://baakcoi.github.io/zhonghui-fund-portfolio/">
+  <link rel="icon" href="media/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="site.css">
+  <script src="site.js" defer></script>
+  <title>众惠基金 App 体验升级 | UI/UX 作品集</title>
+</head>
+<body id="top">
+  <a class="skip" href="#main">跳至正文</a>
+  <header class="header">
+    <div class="frame header-inner">
+      <a class="brand" href="#top"><img src="media/mark.svg" width="34" height="34" alt=""><span>众惠基金<span class="brand-caption">设计案例</span></span></a>
+      <nav class="navigation" aria-label="案例章节">
+        <a href="#research">调研策略</a>
+        <a href="#fund">基金体验</a>
+        <a href="#companion">小惠 IP</a>
+        <a href="#ai">AI 投顾</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="case-title">
+      <picture class="hero-art">
+        <source media="(max-width: 680px)" srcset="media/hero-mobile.webp">
+        <img src="media/hero.webp" width="1440" height="690" alt="新版基金详情页与小惠 AI 助手界面" fetchpriority="high">
+      </picture>
+      <div class="frame hero-inner">
+        <p class="eyebrow"><span class="marker"></span>UI/UX 作品集</p>
+        <h1 id="case-title"><span>众惠基金 App</span><span>体验升级</span></h1>
+        <p class="hero-summary">面向理财新手的基金理解与 AI 陪伴设计。</p>
+        <a class="button" href="#overview">阅读案例 <span aria-hidden="true">↓</span></a>
+      </div>
+    </section>
+
+    <section id="overview" class="overview section">
+      <div class="frame overview-grid">
+        <div>
+          <p class="eyebrow">项目概览</p>
+          <h2>让基金看得懂，<br>让判断有依据。</h2>
+        </div>
+        <div class="overview-body">
+          <p>初次接触基金的用户，要同时弄清术语、对比产品，还要判断风险。本次改版沿着开户、选基、看详情和决策的路径，梳理每一步需要的信息，再把小惠接入容易犹豫的关键场景。</p>
+          <dl class="overview-meta">
+            <div><dt>产品场景</dt><dd>移动端基金 App</dd></div>
+            <div><dt>设计范围</dt><dd>流程、界面、IP 与 AI 交互</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="section research">
+      <div class="frame">
+        <header class="chapter">
+          <p class="eyebrow"><span class="chapter-no">01</span> 调研与设计策略</p>
+          <h2>新手在哪一步卡住？</h2>
+          <p>把「看不懂、选不对、不敢判断」拆成页面上可处理的问题，优先改造影响判断的触点。</p>
+        </header>
+        <ol class="insight-grid">
+          <li>
+            <p class="insight-quote">“这些数字是什么意思？”</p>
+            <h3>看不懂</h3>
+            <p>用一句话解释基金特征，让收益、基准和风险信息更容易读懂。</p>
+          </li>
+          <li>
+            <p class="insight-quote">“这么多，我该怎么选？”</p>
+            <h3>选不对</h3>
+            <p>用期限、风险等直观条件引导筛选，让结果可以比较，也可以返回调整。</p>
+          </li>
+          <li>
+            <p class="insight-quote">“它到底适不适合我？”</p>
+            <h3>不敢判断</h3>
+            <p>把适用人群、判断依据和风险提示放在一起，帮助用户决定下一步。</p>
+          </li>
+        </ol>
+        <p class="note">以上问题为原稿中的用户场景归纳。</p>
+        <details class="board">
+          <summary>查看调研与策略设计图</summary>
+          <a href="media/research-board.webp" data-image-viewer data-caption="用户调研与设计策略">
+            <img src="media/research-board.webp" width="2100" height="1181" loading="lazy" alt="用户调研框架与新手核心痛点设计图">
+            <span class="image-action">放大查看 <span aria-hidden="true">↗</span></span>
+          </a>
+        </details>
+      </div>
+    </section>
+
+    <section id="fund" class="section fund">
+      <div class="frame">
+        <header class="chapter">
+          <p class="eyebrow"><span class="chapter-no">02</span> 基金体验升级</p>
+          <h2>从开户到选基，<br class="mobile-break">理清每一步。</h2>
+        </header>
+        <div class="fund-feature">
+          <figure class="comparison">
+            <div class="compare-item">
+              <p>改版前</p>
+              <a href="media/fund-before.webp" data-image-viewer data-caption="基金详情页 · 改版前">
+                <img src="media/fund-before.webp" width="660" height="1383" loading="lazy" alt="旧版基金详情页，展示基金标签及单条业绩走势">
+                <span class="zoom-cue" aria-hidden="true">↗</span>
+              </a>
+            </div>
+            <div class="compare-item">
+              <p><span class="marker"></span>改版后</p>
+              <a href="media/fund-after.webp" data-image-viewer data-caption="基金详情页 · 改版后">
+                <img src="media/fund-after.webp" width="653" height="1400" loading="lazy" alt="新版基金详情页，展示基金亮点、收益对比、曲线和买入费率">
+                <span class="zoom-cue" aria-hidden="true">↗</span>
+              </a>
+            </div>
+            <figcaption>基金详情页改版对照</figcaption>
+          </figure>
+          <div class="fund-story">
+            <h3>先看懂，再比较，<br>最后确认。</h3>
+            <p>按用户做判断的顺序重排基金详情，把基金优势、收益比较和费用信息放到做决定时看得见的位置。</p>
+            <ol class="design-steps">
+              <li><h4>认出重点</h4><p>突出优势标签，用一句话说明基金特征。</p></li>
+              <li><h4>对比表现</h4><p>并排展示收益数据，用曲线标记重要波动。</p></li>
+              <li><h4>确认成本</h4><p>在买入操作附近前置渠道费率。</p></li>
+            </ol>
+          </div>
+        </div>
+        <div class="journey" aria-label="其他改版触点">
+          <article><h3>开户认证</h3><p>梳理步骤和反馈，让用户知道当前在做什么、失败后如何继续。</p></article>
+          <article><h3>基金列表与筛选</h3><p>调整信息优先级、增加按意图筛选和快捷对比入口。</p><a class="journey-link" href="media/fund-list.webp" data-image-viewer data-caption="基金列表与筛选原型" data-alt="基金列表原型，显示风险等级、投资期限和收益区间筛选">查看筛选原型 <span aria-hidden="true">↗</span></a></article>
+          <article><h3>投顾决策</h3><p>把适用条件、风险和成本摆到决定之前。</p></article>
+        </div>
+        <details class="board">
+          <summary>查看基金详情页设计图</summary>
+          <a href="media/fund-board.webp" data-image-viewer data-caption="基金详情页改版">
+            <img src="media/fund-board.webp" width="2100" height="1181" loading="lazy" alt="基金详情页改版的问题、策略和方案拆解">
+            <span class="image-action">放大查看 <span aria-hidden="true">↗</span></span>
+          </a>
+        </details>
+      </div>
+    </section>
+
+    <section id="companion" class="section companion">
+      <div class="frame">
+        <header class="chapter">
+          <p class="eyebrow"><span class="chapter-no">03</span> 小惠 IP 与设计系统</p>
+          <h2>需要时，小惠就在手边。</h2>
+          <p>在筛选犹豫、详情停留或持仓波动时轻量出现，点开即可提问，并带入当前场景。</p>
+        </header>
+        <div class="companion-grid">
+          <figure class="mascot">
+            <img src="media/mascot.webp" width="429" height="645" loading="lazy" alt="小惠角色，银白色头饰与深蓝金色服装">
+            <figcaption>小惠 IP</figcaption>
+          </figure>
+          <div class="system">
+            <h3>同一个角色，同一套体验。</h3>
+            <p>将角色、色彩、信息卡片和提示状态统一起来，让小惠从基金页进入对话后依然容易识别。</p>
+            <ul class="system-rules">
+              <li><strong>轻量出现</strong><span>在用户犹豫时出现，保持阅读节奏。</span></li>
+              <li><strong>点击即问</strong><span>就地展开对话，承接当前页面信息。</span></li>
+              <li><strong>接着上次聊</strong><span>保留对话进度，支持后续追问。</span></li>
+            </ul>
+          </div>
+        </div>
+        <details class="board">
+          <summary>查看小惠 IP 设计图</summary>
+          <a href="media/companion-board.webp" data-image-viewer data-caption="小惠 IP 与陪伴式体验">
+            <img src="media/companion-board.webp" width="2100" height="1181" loading="lazy" alt="小惠 IP 的场景、出场时机与陪伴交互">
+            <span class="image-action">放大查看 <span aria-hidden="true">↗</span></span>
+          </a>
+        </details>
+      </div>
+    </section>
+
+    <section id="ai" class="section ai">
+      <div class="frame">
+        <header class="chapter">
+          <p class="eyebrow"><span class="chapter-no">04</span> AI 智能投顾助手</p>
+          <h2>把问题讲清，<br class="mobile-break">把依据说透。</h2>
+          <p>以小惠为入口，支持智能问答、基金解读和风险陪伴，把复杂信息转成新手读得懂的判断依据。</p>
+        </header>
+        <div class="ai-feature">
+          <figure class="assistant-figure">
+            <a href="media/assistant.webp" data-image-viewer data-caption="小惠 AI 投顾对话原型">
+              <img src="media/assistant.webp" width="660" height="1347" loading="lazy" alt="小惠 AI 投顾助手欢迎界面，展示基金问题快捷入口与输入框">
+              <span class="zoom-cue" aria-hidden="true">↗</span>
+            </a>
+            <figcaption>小惠对话原型</figcaption>
+          </figure>
+          <div class="ai-story">
+            <h3>从一句提问到一个有依据的回答。</h3>
+            <ol class="ai-flow">
+              <li><h4>识别用户意图</h4><p>从自然语言中识别投资目标、期限和风险偏好，必要时补问关键信息。</p></li>
+              <li><h4>检索金融资料</h4><p>通过 RAG 知识库检索基金资料和风险规则，为回答提供依据。</p></li>
+              <li><h4>组织回答与风险提示</h4><p>通过回复 Skill 组织判断、理由、风险和下一步建议，把决策权留给用户。</p></li>
+            </ol>
+            <p class="boundary">原型边界：提示风险，不承诺收益，不代替用户交易。</p>
+            <a class="journey-link" href="#implementation">查看 Skill 与代码 <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+        <details class="board">
+          <summary>查看 AI 投顾交互设计图</summary>
+          <a href="media/ai-board.webp" data-image-viewer data-caption="AI 投顾助手交互体验">
+            <img src="media/ai-board.webp" width="2100" height="1181" loading="lazy" alt="AI 投顾助手的核心任务与交互方案">
+            <span class="image-action">放大查看 <span aria-hidden="true">↗</span></span>
+          </a>
+        </details>
+
+        <section id="implementation" class="implementation" aria-labelledby="implementation-title">
+          <header class="chapter">
+            <p class="eyebrow">原型实现</p>
+            <h3 id="implementation-title">从 0 到 1 搭建小惠</h3>
+            <p>Agent 识别意图并补全必要信息，金融 RAG 知识库检索可引用的资料，回复 Skill 再把依据和风险组织成用户看得懂的答案。</p>
+          </header>
+          <div class="implementation-grid">
+            <article class="implementation-item">
+              <figure class="evidence">
+                <a href="media/skill-evidence.webp" data-image-viewer data-caption="金融回复 Skill · 原稿实施截图"><img src="media/skill-evidence.webp" width="1120" height="607" loading="lazy" alt="金融回复 Skill 的五段式输出规范与字段"><span class="zoom-cue" aria-hidden="true">↗</span></a>
+                <figcaption>金融回复 Skill · 原稿实施截图</figcaption>
+              </figure>
+              <div class="implementation-copy">
+                <h4>金融回复 Skill</h4>
+                <p>将角色边界、追问条件和回答格式写入规则。回答用新手熟悉的语言，说明判断依据和波动风险，保留可继续了解的下一步。</p>
+                <dl class="reply-schema">
+                  <div><dt>判断结论</dt><dd>先回应用户当前的问题</dd></div>
+                  <div><dt>适合人群</dt><dd>说明适用条件与不适用情形</dd></div>
+                  <div><dt>判断依据</dt><dd>引用检索到的基金资料</dd></div>
+                  <div><dt>风险提示</dt><dd>说明波动、局限和缺失信息</dd></div>
+                  <div><dt>行动建议</dt><dd>提示可继续核实或追问的事项</dd></div>
+                </dl>
+              </div>
+            </article>
+            <article class="implementation-item">
+              <figure class="evidence">
+                <a href="media/code-evidence.webp" data-image-viewer data-caption="微信小程序 · 原稿开发截图"><img src="media/code-evidence.webp" width="1280" height="901" loading="lazy" alt="微信小程序开发工具中的项目文件树与小惠对话预览"><span class="zoom-cue" aria-hidden="true">↗</span></a>
+                <figcaption>微信小程序 · 原稿开发截图</figcaption>
+              </figure>
+              <div class="implementation-copy">
+                <h4>微信小程序代码</h4>
+                <p>原稿记录了从小程序开发工具预览，到串联知识库与 Skill，再到多轮对话调试的过程。</p>
+                <dl class="reply-schema">
+                  <div><dt><code>app.js</code> / <code>app.json</code></dt><dd>应用入口与全局配置</dd></div>
+                  <div><dt><code>pages/index/</code></dt><dd>页面逻辑、模板、样式与配置</dd></div>
+                  <div><dt><code>scripts/</code></dt><dd>数据检查和对话相关测试脚本</dd></div>
+                </dl>
+                <p class="implementation-test"><strong>对话验证</strong>覆盖基金适配、涨跌归因、定投和风险承受能力，记录异常回答并复测。</p>
+              </div>
+            </article>
+          </div>
+          <details class="board">
+            <summary>查看知识库数据检查代码</summary>
+            <a href="media/skill-code-detail.webp" data-image-viewer data-caption="知识库数据检查 · 原稿代码截图">
+              <img src="media/skill-code-detail.webp" width="1200" height="542" loading="lazy" alt="编辑器中用 Python 读取知识切片并按基金归类的代码">
+              <span class="image-action">放大查看 <span aria-hidden="true">↗</span></span>
+            </a>
+          </details>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="frame footer-inner">
+      <div>
+        <p class="footer-title">众惠基金 App 体验升级</p>
+        <p>UI/UX 设计案例 · 页面中的基金与对话内容用于展示原型。</p>
+      </div>
+      <a href="#top">回到顶部 <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+
+  <dialog class="viewer" aria-labelledby="viewer-title">
+    <div class="viewer-toolbar">
+      <h2 id="viewer-title">设计图</h2>
+      <div class="viewer-actions">
+        <button type="button" data-zoom aria-pressed="false">放大</button>
+        <form method="dialog"><button class="viewer-close" aria-label="关闭设计图" title="关闭" autofocus>×</button></form>
+      </div>
+    </div>
+    <div class="viewer-stage" tabindex="0" aria-label="设计图浏览区域"><img alt=""></div>
+  </dialog>
+</body>
+</html>
